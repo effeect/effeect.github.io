@@ -14,7 +14,7 @@ a.btn-social,
     transition: background-color .5s;
     webkit-transition: background-color .3s;
     width: 54px;
-    padding: 17px;
+    padding: 0px;
 }
 
 .btn-social .fa,.btn-social i
@@ -371,7 +371,9 @@ a.btn-social,
 {
     background-color: #6bd079;
 }
-
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
 body {
   position: relative;
     overflow-y: scroll;
