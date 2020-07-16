@@ -3,7 +3,7 @@
 a.btn-social,
 .btn-social
 {
-    border-radius: 50%;
+    border-radius: 20%;
     color: #ffffff !important;
     display: inline-block;
     height: 54px;
@@ -11,10 +11,10 @@ a.btn-social,
     margin: 8px 4px;
     text-align: center;
     text-decoration: none;
-    transition: background-color .3s;
+    transition: background-color .5s;
     webkit-transition: background-color .3s;
     width: 54px;
-    padding: 16px;
+    padding: 17px;
 }
 
 .btn-social .fa,.btn-social i
@@ -370,4 +370,9 @@ a.btn-social,
 .btn-email:hover
 {
     background-color: #6bd079;
+}
+
+body {
+  position: relative;
+    overflow-y: scroll;
 }
